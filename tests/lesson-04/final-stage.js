@@ -6,7 +6,7 @@ function findPairsDivisibleBy17 () {
         for (let d = 100; d >= 1; d--) {
             let sum = c + d;
             if (sum % 17 === 0 && c !== d) {
-                console.log("Cặp số thứ", n, ":", c ,"và", d);
+                console.log("Cặp số thứ", n + 1, ":", c ,"và", d);
                 n++;
             }
         }
