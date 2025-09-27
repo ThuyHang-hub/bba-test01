@@ -1,4 +1,5 @@
 
+console.log("Final State")
 function findPairsDivisibleBy17 () {
     let n = 0;
     for (let c = 1; c <= 100; c++) {
